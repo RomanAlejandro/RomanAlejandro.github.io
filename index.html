@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>I ❤ KASS</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+<body onclick="PlayAudio()">
+<center>
+<audio id="skz" controls loop>
+	<source src="skz.mp3" type="audio/mpeg">
+</audio></center>
+
+<div id="container">
+	<span id="text1"></span>
+	<span id="text2"></span>
+</div>
+
+<!-- El filtro SVG utilizado para crear el efecto de fusión -->
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<!-- Básicamente, se trata de un efecto de umbral: los píxeles con una opacidad suficientemente alta se vuelven totalmente opacos, y todos los demás píxeles se vuelven completamente transparentes. -->
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
