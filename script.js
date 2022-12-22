@@ -36,8 +36,8 @@ const texts = [
 	"UUUUUN CHIIIIIIINGO",
 	"POR TODO LO QUE ERES",
 	"AMO TUS AUDIOS LARGOS",
-	"Y AMO TU RISA COMO",
-	"NO TIENES UNA IDEA",
+	"Y AMO TU RISA ❤",
+	"COMO NO TIENES UNA IDEA",
 	"♥",
 	"♥ ♥",
 	"♥ ♥ ♥",
@@ -65,8 +65,9 @@ const texts = [
 	"🍪  🥛 🎅",
 	"⭐🎄⭐",
 	"🎅  🥛 🍪 ",
-	"FELIIIZ NAVIDAD",
+	"FELIIIZ NAVIDAD!!!",
 	"Y AÑO NUEVO!!",
+	"👯🥂 2023 🎉🎉",
 	"",
 ];
 
