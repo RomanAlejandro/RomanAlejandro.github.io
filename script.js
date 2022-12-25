@@ -3,7 +3,6 @@ const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2") };
 
-// The strings to morph between. You can change these to anything you want!
 const texts = [
 	"",
 	"TOCA AQUI 🎧👈",
